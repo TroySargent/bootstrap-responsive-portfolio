@@ -33,6 +33,19 @@ span {
     max-width: 100%;
 }
 
+picture {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: seashell;
+    padding: 1vh;
+}
+
 /* Small devices (landscape phones, 640px and up) */
 @media (max-width: 640px) {
     .title {
@@ -57,18 +70,4 @@ span {
         padding: 0!important;
     }
 
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .container {
-        margin: ;
-    }
-}
-
-/* Large devices (desktops, 980px and up) */
-@media (min-width: 980px) {
-    .container {
-        margin: ;
-    }
 }
