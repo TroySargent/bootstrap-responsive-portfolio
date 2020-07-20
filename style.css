@@ -1,0 +1,48 @@
+.title {
+    background-color: sandybrown;
+    color:white;
+}
+
+.nav > li > h1 {
+    font-size: 3vh;
+}
+
+.nav a:hover {
+    color:black;
+}
+span {
+    margin: 1vh;
+}
+
+/* Small devices (landscape phones, 640px and up) */
+@media (max-width: 640px) { 
+    .title {
+        width: 100%;
+        text-align: center;
+    }
+    .nav .container {
+        margin: 0;
+        padding: 100%;
+        width: auto;
+    }
+
+    .navbar-nav {
+        margin: 0 auto;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container {
+        margin: ;
+    }
+}
+
+/* Large devices (desktops, 980px and up) */
+@media (min-width: 980px) {  
+    .container {
+        margin: ;
+    }
+}
+
