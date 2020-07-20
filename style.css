@@ -1,48 +1,74 @@
 .title {
-    background-color: sandybrown;
-    color:white;
+    background-color: blue;
+    color: white!important;
+    padding-left: 1vh!important;
+    padding-right: 1vh!important;
+    padding: 2vh 1vh 2vh 1vh;
+
 }
 
-.nav > li > h1 {
+.nav>li>h1 {
     font-size: 3vh;
 }
 
 .nav a:hover {
-    color:black;
+    color: black;
 }
+
 span {
     margin: 1vh;
 }
 
+.rect {
+    height: 1vh;
+    width: 100%;
+    background-color: blue;
+    position: absolute;
+    margin: 0;
+    top: 0;
+
+    
+}
+.img {
+    max-width: 100%;
+}
+
 /* Small devices (landscape phones, 640px and up) */
-@media (max-width: 640px) { 
+@media (max-width: 640px) {
     .title {
         width: 100%;
         text-align: center;
-    }
-    .nav .container {
         margin: 0;
-        padding: 100%;
-        width: auto;
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    nav .container {
+        margin: 0;
+        padding-left: 0!important;
+        padding-right: 0!important;
+        max-width: 100%;
+    
     }
 
     .navbar-nav {
         margin: 0 auto;
     }
+    nav .navbar {
+        padding: 0!important;
+    }
 
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
     .container {
         margin: ;
     }
 }
 
 /* Large devices (desktops, 980px and up) */
-@media (min-width: 980px) {  
+@media (min-width: 980px) {
     .container {
         margin: ;
     }
 }
-
