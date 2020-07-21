@@ -17,12 +17,6 @@
     background-color: #8CF;
 }
 
-/* Separates navbar links with pipe character */
-span {
-    margin: 1vh;
-    color:#f7f7f7;
-}
-
 /* Gives color to body of the page but not the card or container */
 body {
     background-color: #f7f7f7;
